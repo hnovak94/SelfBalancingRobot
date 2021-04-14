@@ -21,26 +21,33 @@
 
 ### Created Parts
 
-There will be 7 pieces of acryllic, but only 2 sides need designing.
+[Onshape Document](https://cvilleschools.onshape.com/documents/5b15c4cd2f6854dc4cc32ff8/w/ed23d40d7b31ab41a2311be3/e/2e2d58ec8adab28d16997f49)
 
+2 parts need designing. 
+2 : 1 size ratio of parts. 
 **T-slots** on 
 
-**Bottom:** Two holes for the motors, and 3 holes for 9V battery holder
+Use versions to do holes. There should only be 2 parts on the document. 
+**Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter)
 
-**Middle:** 4? holes for Metro, H-bridge, and accelerometer
+**Bottom:** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder. Two holes for t-slots. 
 
-**Top:** Four holes for battery pack 
+**Middle:** (170 mm by 80 mm) 4 holes for Metro, H-bridge, and accelerometer. 4 holes for t-slots. Talk to Dr shields about staggering. Possibly doing one piece for side walls and having an insert in the middle. There are too many t-slots. 
+
+**Top:** (170 mm by 80 mm) Four holes for battery pack. Two holes for t-slots. 
 
 ### Timeline
 
 **WEEK 1:** Project Proposal
 
-**WEEK 2:** The CAD design on Onshape. The design should be relatively simple since it's only 2 parts
+**WEEK 2:** The CAD design on Onshape. The design should be relatively simple since it's only 2 parts>
 
 **WEEK 3:** Should have parts by this time. Get everything wired up with the libraries working. I don't want to underestimate the amount of time the libraries will take so this will be pushed to week 4 as well. 
 
-**WEEK 4**
+**WEEK 4:** Figure out libraries and begin coding. 
 
-**WEEK 5**
+**WEEK 5:** Coding
+
+**WEEK 6:** Coding
 
 [Trello board](https://trello.com/b/zZdArFdT/self-balancing-robot)
