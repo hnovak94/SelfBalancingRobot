@@ -25,9 +25,7 @@
 
 3 parts need designing. 
 2 : 1 size ratio of parts. 
-**T-slots** on 
 
-Use versions to do holes. There should only be 2 parts on the document. 
 **Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter), slot in the middle for middle level. 
 
 <img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height = "250">
