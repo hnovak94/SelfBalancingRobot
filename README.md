@@ -23,16 +23,16 @@
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/5b15c4cd2f6854dc4cc32ff8/w/ed23d40d7b31ab41a2311be3/e/2e2d58ec8adab28d16997f49)
 
-2 parts need designing. 
+3 parts need designing. 
 2 : 1 size ratio of parts. 
 **T-slots** on 
 
 Use versions to do holes. There should only be 2 parts on the document. 
-**Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter)
+**Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter), slot in the middle for middle level. 
 
 **Bottom:** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder. Two holes for t-slots. 
 
-**Middle:** (170 mm by 80 mm) 4 holes for Metro, H-bridge, and accelerometer. 4 holes for t-slots. Talk to Dr shields about staggering. Possibly doing one piece for side walls and having an insert in the middle. There are too many t-slots. 
+**Middle:** (170 mm by 80 mm) 4 holes for Metro, H-bridge, and accelerometer. 
 
 **Top:** (170 mm by 80 mm) Four holes for battery pack. Two holes for t-slots. 
 
