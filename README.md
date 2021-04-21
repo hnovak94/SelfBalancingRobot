@@ -30,11 +30,18 @@
 Use versions to do holes. There should only be 2 parts on the document. 
 **Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter), slot in the middle for middle level. 
 
-**Bottom:** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder. Two holes for t-slots. 
+<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height = "250">
+
+**Bottom :** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder. Two holes for t-slots. 
+
+
+**Top:** (170 mm by 80 mm) Four holes for battery pack. Two holes for t-slots. 
+
+<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/topbottomwall.png" height = "250">
 
 **Middle:** (170 mm by 80 mm) 4 holes for Metro, H-bridge, and accelerometer. 
 
-**Top:** (170 mm by 80 mm) Four holes for battery pack. Two holes for t-slots. 
+<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/middlewall.png" height = "250">
 
 ### Timeline
 
