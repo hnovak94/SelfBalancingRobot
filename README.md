@@ -30,10 +30,10 @@
 
 <img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height = "250">
 
-**Bottom :** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder. Two holes for t-slots. 
+**Bottom :** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder.
 
 
-**Top:** (170 mm by 80 mm) Four holes for battery pack. Two holes for t-slots. 
+**Top:** (170 mm by 80 mm) 2 holes for battery pack.
 
 <img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/topbottomwall.png" height = "250">
 
