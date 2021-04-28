@@ -2,8 +2,8 @@ import time
 import board
 import pwmio
 
-motorA1 = pwmio.PWMOut(board.D13, frequency=5000, duty_cycle=0)
-motorA2 = pwmio.PWMOut(board.D12, frequency=5000, duty_cycle=0)
+motorA1 = pwmio.PWMOut(board.D13, frequency=5000, duty_cycle=0)  # contriols speed(?)
+motorA2 = pwmio.PWMOut(board.D12, frequency=5000, duty_cycle=0)  # controls direction(?)
 
 while True:
   motorA1.duty_cycle = 20000  # the difference between the two determines the speed. 
