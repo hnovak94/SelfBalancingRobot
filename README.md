@@ -45,7 +45,7 @@
 
 <img src= "https://github.com/hnovak94/SelfBalancingRobot/blob/main/wd.jpeg" height = "400">
 
-#### Accelerometer:
+#### Accelerometer
 
 Vin: 5V
 
@@ -56,7 +56,7 @@ SDA: SDA
 SCL: SCL
 
 
-#### Driver:
+#### Driver
 
 AOUT: wires of the motor, red right, black left
 
@@ -75,7 +75,7 @@ BIN2: 6
 GND: Ground
 
 
-#### Motors:
+#### Motors
 
 Connect to AOUT and BOUT of driver
 
