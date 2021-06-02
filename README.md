@@ -17,23 +17,9 @@
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/5b15c4cd2f6854dc4cc32ff8/w/ed23d40d7b31ab41a2311be3/e/2e2d58ec8adab28d16997f49)
 
-3 parts need designing. 
-2 : 1 size ratio of parts. 
+**Breadboard Holder**
 
-**Sides:** (150 mm by 80 mm) Hole on one side for battery pack wires (5 mm in diameter), slot in the middle for middle level. 
-
-<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height = "250">
-
-**Bottom :** (170 mm by 100 mm)Two holes for the motors, and 3 holes for 9V battery holder.
-
-
-**Top:** (170 mm by 80 mm) 2 holes for battery pack.
-
-<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/topbottomwall.png" height = "250">
-
-**Middle:** (170 mm by 80 mm) 4 holes for Metro, H-bridge, and accelerometer. 
-
-<img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/middlewall.png" height = "250">
+<img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/breadboardholder.png" height = "300">
 
 ### Wiring
 
@@ -41,49 +27,35 @@
 
 #### Accelerometer
 
-Vin: 5V
-
-GND: Ground
-
-SDA: SDA
-
-SCL: SCL
+* Vin: 5V
+* GND: Ground
+* SDA: SDA
+* SCL: SCL
 
 
 #### Driver
 
-AOUT: wires of the motor, red right, black left
-
-BOUT: wires of second motor, red right black left
-
-AIN1: 13
-
-AIN2: 12
-
-SLP: 3.3
-
-BIN1: 2
-
-BIN2: 6
-
-GND: Ground
+* AOUT: wires of the motor, red right, black left
+* BOUT: wires of second motor, red right black left
+* AIN1: 13
+* AIN2: 12
+* SLP: 3.3
+* BIN1: 2
+* BIN2: 6
+* GND: Ground
 
 
 #### Motors
 
-Connect to AOUT and BOUT of driver
+* Connect motor one to AOUT and and motor two to BOUT of driver
 
 
 #### Battery Pack
 
-Two wires connect to driver
+* Two wires connect to driver
 
 
 ### Code
-
-Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/intromotor) for motors
-Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/introaccel.py) for accelerometer
-Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/accelmotor.py) for motor + accel. together
 
 #### Libraries:
 
@@ -94,6 +66,28 @@ Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/accelmotor.
 * busio
 
 * [adafruit_lsm303](https://github.com/hnovak94/SelfBalancingRobot/blob/main/adafruit_lsm303_accel.mpy)
+
+#### Motors
+
+* Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/intromotor)
+
+There are two different digital pins for each motor. They are set as A1, A2 (motor 1), and B1, B2 (motor 2). The difference between the numbers of the two pins determines the speed of the motor. Whichever pin is higher determines the direction e.g. if A1 = 60000 and A2 = 0 then the wheels will spin very quickly (the difference is high) in direction 1. If A1 = 0 and A2 = 60000, then the wheels will spin at the same speed (because the difference between the two numbers is the same) but in the opposite direction. The max number is 65535, which would be the highest speed. If the difference is 0 then the motors will stop spinning. 
+
+
+#### Accelerometer
+
+* Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/introaccel.py)
+
+Because the robot only goes forwards and backwards we are only concerned with the x-value of the accelerometer "accel_x". The range of x should not go lower than -3 or higher than 3. 
+
+#### Together
+
+* Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/accelmotor.py)
+
+The x-value must remain in between -3 and +3. Therefore the closer x is to -3 or 3, the faster the wheels need to spin. As x approaches 0, straight up and down, the difference between the two numbers for the motors should appreach 0. When x is zero and the difference between the digital pins is 0 the robot is standing still perfectly upright. 
+
+Initially we tried using a ratio of 1:20. When accel_x = 1 or -1 the difference would be 20000, when accel_x = 2 or -2 the difference would be 40000.
+
 
 ### Timeline
 
