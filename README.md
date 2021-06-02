@@ -41,6 +41,37 @@
 
 <img src = "https://github.com/hnovak94/SelfBalancingRobot/blob/main/middlewall.png" height = "250">
 
+### Wiring
+
+<img src= "https://github.com/hnovak94/SelfBalancingRobot/blob/main/wd.jpeg" height = "400">
+
+#### Accelerometer:
+Vin: 5V
+GND: Ground
+SDA: SDA
+SCL: SCL
+
+#### Driver:
+
+AOUT: wires of the motor, red right, black left
+BOUT: wires of second motor, red right black left
+AIN1: 13
+AIN2: 12
+SLP: 3.3
+BIN1: 2
+BIN2: 6
+GND: Ground
+
+#### Motors:
+
+Connect to AOUT and BOUT of driver
+
+#### Battery Pack
+
+Two wires connect to driver
+
+### Code
+
 ### Timeline
 
 **WEEK 1:** Project Proposal
