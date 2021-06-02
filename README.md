@@ -3,21 +3,15 @@
 ### Resources
 
 * [Maker.pro](https://maker.pro/arduino/projects/build-arduino-self-balancing-robot)
-## ♡ Planning
 
 ### Materials
 
-* H-bridge
+* Driver
 * Metro Express
-* Accelerometer
-* 9V battery
+* Accelerometer: LSM303DLHC [library](https://github.com/hnovak94/SelfBalancingRobot/blob/main/adafruit_lsm303_accel.mpy)
 * Battery pack
 * Acryllic 
-* 2 motors
-* Wires
-* 2 wheels 
-* Nuts and bolts for metro 
-* Nuts and bolts for holding acryllic together
+* 2 motors (withe wheels)
 
 ### Created Parts
 
@@ -86,6 +80,20 @@ Two wires connect to driver
 
 
 ### Code
+
+Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/intromotor) for motors
+Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/introaccel.py) for accelerometer
+Test [code](https://github.com/hnovak94/SelfBalancingRobot/blob/main/accelmotor.py) for motor + accel. together
+
+#### Libraries:
+
+* board
+
+* pwmio
+
+* busio
+
+* [adafruit_lsm303](https://github.com/hnovak94/SelfBalancingRobot/blob/main/adafruit_lsm303_accel.mpy)
 
 ### Timeline
 
