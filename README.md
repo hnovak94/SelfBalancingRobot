@@ -27,6 +27,10 @@ There are 4 walls connected by t-slots. The middle level fits into a rectangular
 
 The breadboard goes on top, the battery pack on the bottom of the top level, and the metro express on the middle level.
 
+#### Holes
+
+Holes for battery pack, wires, breadboard holder, metro express, and two motors. 
+
 ### Breadboard Holder
 
 <img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/media/breadboardholder.png" height = "300">
