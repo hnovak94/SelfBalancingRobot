@@ -21,8 +21,7 @@
 
 There are 4 walls connected by t-slots. The middle level fits into a rectangular slot in the middle of the sides. 
 
-<img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/middlewall.png" height="200">
-<img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height="200" >
+<img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/middlewall.png" height="200"> <img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/sidewall.png" height="200" >
 
 The breadboard goes on top, the battery pack on the bottom of the top level, and the metro express on the middle level.
 
