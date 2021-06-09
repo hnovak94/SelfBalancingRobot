@@ -17,6 +17,13 @@
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/5b15c4cd2f6854dc4cc32ff8/w/ed23d40d7b31ab41a2311be3/e/2e2d58ec8adab28d16997f49)
 
+**Walls**
+
+There are 4 walls connected by t-slots. The middle level fits into a rectangular slot in the middle of the sides. 
+
+
+The breadboard goes on top, the battery pack on the bottom of the top level, and the metro express on the middle level.
+
 **Breadboard Holder**
 
 <img src="https://github.com/hnovak94/SelfBalancingRobot/blob/main/breadboardholder.png" height = "300">
