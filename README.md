@@ -19,8 +19,6 @@
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/5b15c4cd2f6854dc4cc32ff8/w/ed23d40d7b31ab41a2311be3/e/2e2d58ec8adab28d16997f49)
 
-## ▷ Materials
-
 ### Walls
 
 There are 4 walls connected by t-slots. The middle level fits into a rectangular slot in the middle of the sides. 
